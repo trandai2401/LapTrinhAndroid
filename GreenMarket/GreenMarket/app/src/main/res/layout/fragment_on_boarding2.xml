@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/purple_200"
+    android:background="#F160AC"
     >
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:src="@drawable/cooking"
+        android:src="@drawable/meat"
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:layout_constraintVertical_bias=".3"
@@ -23,7 +23,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Thịt ?"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="fresh"
+        android:text="Siêu Ngon"
         android:textSize="42sp"
         app:layout_constraintBottom_toBottomOf="parent"
 
@@ -70,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Everything"
+        android:text="Hoàn Hảo"
         android:textColor="@color/black"
         android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,7 +87,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="5dp"
-        android:text="11111111111111111111111111111111"
+        android:text="Được chăn nuôi khép kín. Cam kết không cám không, không chất bả quản."
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
